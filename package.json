@@ -1,0 +1,34 @@
+{
+  "name": "elm-electron-hallo-welt",
+  "version": "1.0.0",
+  "description": "Ein kleines Elm mit Electron Programm",
+  "main": "main.js",
+  "scripts": {
+    "elm": "elm make Main.elm --output elm.js || true",
+    "elm:watch": "chokidar '**/*.elm' -c 'npm run elm'",
+    "start": "electron main.js",
+    "watch": "npm run start & npm run elm:watch & wait"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fulnir/elm-electron-hallo-welt.git"
+  },
+  "keywords": [
+    "Elm",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "german",
+    "deutsch"
+  ],
+  "author": "Fulnir",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/fulnir/elm-electron-hallo-welt/issues"
+  },
+  "homepage": "https://github.com/fulnir/elm-electron-hallo-welt#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
