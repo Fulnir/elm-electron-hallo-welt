@@ -1,6 +1,6 @@
 # Electron Elm "Hallo Welt"
 
-Die Installation von Elm und Electron wird hier vorausgesetzt.
+_Die Installation von Elm und Electron wird hier vorausgesetzt._
 
 Für das Minibeispiel benötigen wir folgende Dateien.  
   - package.json
@@ -8,7 +8,6 @@ Für das Minibeispiel benötigen wir folgende Dateien.
   - ports.js
   - index.html
   - Main.elm
-
 
 ```mermaid
 graph LR
@@ -18,7 +17,6 @@ graph LR
   index-- Wird aufgefufen von.. -->mainjs(main.js);
   mainjs-- Läuft in.. -->electron((electron));
 ```
-
 
 ## Electron
 
